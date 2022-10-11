@@ -3,19 +3,7 @@ import './App.css';
 import searchIcon from './search.svg';
 import MovieCard from "./MovieCard";
 
-//8271d079
-
 const API_URL = 'http://www.omdbapi.com?apikey=8271d079';
-// const movie1 = {
-    
-//         "Title": "Title Shot",
-//         "Year": "1979",
-//         "imdbID": "tt0080027",
-//         "Type": "movie",
-//         "Poster": "https://m.media-amazon.com/images/M/MV5BNjExZjNjOTctNDdmMC00NWRlLWE1MzctOTkxN2MyNTE4NzRiXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_SX300.jpg"
-      
-//         }
-
 const App = () => {
     const [searchTerm, setSearchTerm] = useState("")
     const [movies, setMovies] = useState([]);
